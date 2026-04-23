@@ -189,6 +189,7 @@
         </div>
         <div class="flex flex-wrap justify-center items-center gap-6">
             <button onclick="document.getElementById('privacy-modal').classList.remove('hidden')" class="hover:text-black transition">Privacy Policy</button>
+            <button onclick="document.getElementById('terms-modal').classList.remove('hidden')" class="hover:text-black transition">Terms of Service</button>
             <span>Powered by GCP, Firebase & Gemini</span>
             <div class="flex items-center space-x-2">
                 <span>Built in SA</span>
@@ -206,60 +207,99 @@
             <button onclick="document.getElementById('privacy-modal').classList.add('hidden')" class="absolute top-6 right-8 text-gray-400 hover:text-black font-black text-3xl transition">&times;</button>
             
             <h2 class="text-3xl font-black mb-2 tracking-tight text-black">Privacy Policy</h2>
-            <p class="text-sm font-bold text-gray-400 mb-8 uppercase tracking-widest">POPIA COMPLIANT • EFFECTIVE APRIL 2026</p>
+            <p class="text-sm font-bold text-gray-400 mb-8 uppercase tracking-widest">EFFECTIVE DATE: 23 APRIL 2026</p>
             
             <div class="text-sm text-gray-600 space-y-6 leading-relaxed normal-case">
                 <div>
                     <h3 class="font-black text-black text-lg mb-2">1. Introduction</h3>
-                    <p>Welcome to Ntivo EdTech (Pty) Ltd ("we," "our," or "us"). We are committed to protecting the privacy and security of our users' personal information. This Privacy Policy explains how we collect, use, and safeguard your data when you use the Langa Workspace platform (the "Service"). By accessing or using Langa Workspace, you agree to the practices described in this policy.</p>
+                    <p>Welcome to Ntivo EdTech (Pty) Ltd ("Company", "we", "our", "us"). We respect your privacy and are committed to protecting your personal data in compliance with the Protection of Personal Information Act (POPIA) of South Africa. This Privacy Policy explains how we collect, use, and safeguard your data when you use the Langa Workspace and our website (ntivoedtech.co.za).</p>
                 </div>
                 <div>
-                    <h3 class="font-black text-black text-lg mb-2">2. Information We Collect</h3>
-                    <p>To provide you with a secure and personalized experience, we collect the following information when you register for a Langa Workspace Pilot account:</p>
+                    <h3 class="font-black text-black text-lg mb-2">2. The Data We Collect</h3>
+                    <p>We only collect information necessary to provide and improve our educational AI services:</p>
                     <ul class="list-disc pl-5 mt-2 space-y-2">
-                        <li><strong>Personal Identification Information:</strong> Full name, email address, and the name of your school.</li>
-                        <li><strong>Authentication Data:</strong> A securely hashed and salted version of your password (we do not store or see your actual password).</li>
-                        <li><strong>Usage Data:</strong> Timestamp of your account creation, last login, and generated assessment parameters (e.g., Grade, Subject, Topic).</li>
+                        <li><strong>Account Information:</strong> Name, email address, and school affiliation provided during registration.</li>
+                        <li><strong>Usage & Prompt Data:</strong> The text inputs, curriculum selections, and prompts you provide to our AI tools (including Nano and the Lesson Planner) to generate educational content.</li>
+                        <li><strong>Technical Logs:</strong> Standard server logs, IP addresses, and browser types for security and debugging purposes.</li>
                     </ul>
                 </div>
                 <div>
-                    <h3 class="font-black text-black text-lg mb-2">3. How We Use Your Information</h3>
-                    <p>We use the collected data strictly for the following purposes:</p>
+                    <h3 class="font-black text-black text-lg mb-2">3. How We Use Your Data</h3>
                     <ul class="list-disc pl-5 mt-2 space-y-2">
-                        <li>To create, authenticate, and manage your secure Langa Workspace account.</li>
-                        <li>To provide the core functionality of the Service (generating CAPS-aligned educational material).</li>
-                        <li>To prevent fraudulent access and maintain the security of the platform.</li>
+                        <li>To provide, maintain, and secure the Langa Workspace platform.</li>
+                        <li>To generate your requested lesson plans, assessments, and AI responses.</li>
+                        <li>To analyze usage trends (e.g., measuring the speed of assessment generation) to improve our systems.</li>
+                        <li>We do not sell your personal data to third parties.</li>
                     </ul>
                 </div>
                 <div>
-                    <h3 class="font-black text-black text-lg mb-2">4. Data Storage and Security</h3>
-                    <p>Your personal data is stored securely in enterprise-grade databases hosted on Google Cloud Platform (GCP). We employ strict security measures, including bcrypt password hashing and database sanitization, to protect your data against unauthorized access, alteration, or destruction.</p>
+                    <h3 class="font-black text-black text-lg mb-2">4. Artificial Intelligence Processing</h3>
+                    <p>Ntivo EdTech utilizes advanced cloud infrastructure and AI models (such as Google Vertex AI). Your prompts and curriculum inputs are processed to generate immediate outputs. We do not use your personal data to train public foundational AI models.</p>
                 </div>
                 <div>
-                    <h3 class="font-black text-black text-lg mb-2">5. Third-Party Services and AI Processing</h3>
-                    <p>Langa Workspace utilizes advanced Artificial Intelligence (Google Vertex AI) to generate educational content.</p>
-                    <ul class="list-disc pl-5 mt-2 space-y-2">
-                        <li><strong>We do not</strong> share your personal identification information (name, email, school) with the AI models.</li>
-                        <li>Only the educational parameters you input (e.g., "Grade 12 Mathematics, Euclidean Geometry") are processed by the AI to generate the content.</li>
-                    </ul>
+                    <h3 class="font-black text-black text-lg mb-2">5. Data Storage and Security</h3>
+                    <p>We implement industry-standard security measures. Your data is encrypted in transit and at rest, utilizing secure cloud infrastructure hosted regionally to ensure data sovereignty and compliance.</p>
                 </div>
                 <div>
-                    <h3 class="font-black text-black text-lg mb-2">6. Your Rights (POPIA Compliance)</h3>
-                    <p>Under the Protection of Personal Information Act (POPIA), you have the right to:</p>
-                    <ul class="list-disc pl-5 mt-2 space-y-2">
-                        <li>Request access to the personal information we hold about you.</li>
-                        <li>Request the correction or deletion of your personal information.</li>
-                        <li>Reset your password securely via our automated systems.</li>
-                    </ul>
+                    <h3 class="font-black text-black text-lg mb-2">6. Your POPIA Rights</h3>
+                    <p>Under POPIA, you have the right to request access to, correction of, or deletion of your personal data. You may exercise these rights by contacting us.</p>
                 </div>
                 <div>
                     <h3 class="font-black text-black text-lg mb-2">7. Contact Us</h3>
-                    <p>If you have any questions or requests regarding this Privacy Policy or your data, please contact the Ntivo EdTech administration team at: <a href="mailto:info@ntivoedtech.co.za" class="text-black font-bold hover:underline">info@ntivoedtech.co.za</a></p>
+                    <p>For any privacy-related inquiries, please contact our Information Officer at: <a href="mailto:fmalatji@ntivoedtech.co.za" class="text-black font-bold hover:underline">fmalatji@ntivoedtech.co.za</a></p>
                 </div>
             </div>
             
             <div class="mt-10 pt-6 border-t border-gray-100 flex justify-end">
                 <button onclick="document.getElementById('privacy-modal').classList.add('hidden')" class="bg-black text-white px-8 py-3 rounded-full font-bold hover:scale-105 transition-transform text-sm">Acknowledge & Close</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="terms-modal" class="hidden fixed inset-0 bg-black bg-opacity-60 z-50 flex items-center justify-center p-4 backdrop-blur-sm transition-opacity">
+        <div class="bg-white rounded-3xl max-w-3xl w-full max-h-[85vh] overflow-y-auto p-10 relative shadow-2xl">
+            <button onclick="document.getElementById('terms-modal').classList.add('hidden')" class="absolute top-6 right-8 text-gray-400 hover:text-black font-black text-3xl transition">&times;</button>
+            
+            <h2 class="text-3xl font-black mb-2 tracking-tight text-black">Terms of Service</h2>
+            <p class="text-sm font-bold text-gray-400 mb-8 uppercase tracking-widest">EFFECTIVE DATE: 23 APRIL 2026</p>
+            
+            <div class="text-sm text-gray-600 space-y-6 leading-relaxed normal-case">
+                <div>
+                    <h3 class="font-black text-black text-lg mb-2">1. Acceptance of Terms</h3>
+                    <p>By accessing or using the Langa Workspace and ntivoedtech.co.za, you agree to be bound by these Terms of Service. If you do not agree, do not use the platform.</p>
+                </div>
+                <div>
+                    <h3 class="font-black text-black text-lg mb-2">2. Nature of the Service</h3>
+                    <p>Ntivo EdTech provides an AI-assisted workspace for educators. While our tools are grounded in official South African curriculum frameworks (CAPS/IEB), the platform acts as a co-pilot. Educators are solely responsible for reviewing, verifying, and approving all AI-generated content before utilizing it in a classroom or official capacity.</p>
+                </div>
+                <div>
+                    <h3 class="font-black text-black text-lg mb-2">3. Intellectual Property</h3>
+                    <ul class="list-disc pl-5 mt-2 space-y-2">
+                        <li><strong>Our IP:</strong> Ntivo EdTech (Pty) Ltd retains all right, title, and interest in and to the platform, including its codebase, underlying algorithms, UI designs, and proprietary prompt architecture.</li>
+                        <li><strong>Your License:</strong> We grant you a limited, non-exclusive, non-transferable license to use the lesson plans, assessments, and materials generated by you on the platform for your direct pedagogical use.</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-black text-black text-lg mb-2">4. Prohibited Conduct</h3>
+                    <p>You agree not to:</p>
+                    <ul class="list-disc pl-5 mt-2 space-y-2">
+                        <li>Reverse engineer, decompile, or attempt to extract the source code or underlying AI prompts of the platform.</li>
+                        <li>Use the platform to generate harmful, illegal, or discriminatory content.</li>
+                        <li>Share your account credentials with unauthorized users.</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-black text-black text-lg mb-2">5. Disclaimer of Warranties and Liability</h3>
+                    <p>The service is provided "as is" without warranties of any kind. Ntivo EdTech shall not be liable for any direct, indirect, incidental, or consequential damages resulting from the use or inability to use the service, including but not limited to inaccuracies in AI-generated educational materials.</p>
+                </div>
+                <div>
+                    <h3 class="font-black text-black text-lg mb-2">6. Governing Law</h3>
+                    <p>These terms shall be governed by and construed in accordance with the laws of the Republic of South Africa.</p>
+                </div>
+            </div>
+            
+            <div class="mt-10 pt-6 border-t border-gray-100 flex justify-end">
+                <button onclick="document.getElementById('terms-modal').classList.add('hidden')" class="bg-black text-white px-8 py-3 rounded-full font-bold hover:scale-105 transition-transform text-sm">Acknowledge & Close</button>
             </div>
         </div>
     </div>
